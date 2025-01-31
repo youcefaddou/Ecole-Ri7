@@ -1,0 +1,159 @@
+body {
+    font-family: Helvetica;
+    border: solid 4px black;
+}
+
+h1 {
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border: solid 4px black;
+    align-items: center;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul {
+    list-style-type: none;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 40px;
+
+}
+
+.connecter {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+
+
+#topSection h2 {
+
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.subh2 {
+    text-align: center;
+}
+
+.box-article-container {
+    display: flex;
+}
+
+.box-article-container article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo-article {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+
+}
+
+.logo-art {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px
+}
+
+#bottomSection {
+    background-color: blue;
+    color: white;
+    
+}
+
+#bottomSection h2 {
+    font-size: 40px;
+    text-align: center;
+    
+}
+.both2 {
+    text-align: center;
+    padding: 20px;
+}
+.box-article-container2 {
+    display: flex;
+    justify-content: center;
+    border-left: solid 1px gray;
+    
+}
+.contact-item {
+    background-color: white;
+    color:black;
+    padding: 40px;
+    border-left: ridge 2px rgb(224, 215, 215);
+    width:400px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-item .icon {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.contact-item h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+.contact-item p {
+    font-size: 16px;
+}
+.footer-container {
+    font-style: helvetica;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin: 20px;
+    
+}
+
+footer nav ul {
+    list-style-type: none;
+}
+footer nav ul a {
+    text-decoration: none;
+    color: black;
+    
+}
+.footer-item {
+    display: flex;
+    flex-direction: column;
+}
+.logo-footer {
+    display:flex;
+    justify-content: space-between;
+    padding: 0;
+    
+}
+
+.inscription {
+    border: 2px solid rgb(22, 22, 196);
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    align-content: center;
+}
+.footer-column {
+    align-content: center;
+}

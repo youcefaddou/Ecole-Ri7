@@ -1,0 +1,27 @@
+/* Ajouter votre CSS ici */
+input {
+    font-family: Helvetica;
+    display: block;
+    margin: 1px;     
+    width: 200px;
+    border-radius: 100px;
+    padding: 2px;
+    border: black;
+    
+
+}
+input[type=submit] {
+    text-align: center;
+    background-color: green;
+    font-weight: bold;
+    width: 400px;
+}
+input:focus : {
+    border: 2px;
+    color: blue;
+}
+label {
+    width: 100px;
+    display: block;
+    float: left;
+}

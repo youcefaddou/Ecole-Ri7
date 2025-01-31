@@ -1,0 +1,131 @@
+body {
+    
+    background-color: black;
+}
+header {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.square {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+header nav ul {
+display: flex;
+list-style-type: none;
+gap: 20px;
+padding: 0;
+align-items: center;
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+}
+
+#sectionContainer {
+    width: 100%;
+    height: 100%;
+    color:white;
+    display:flex;
+    margin-top: 20px;
+}
+.actu-container {
+    width: 20%;
+    height:400px;
+    background-color: blue;
+    display: flex-start;
+    h2 {
+        margin-left: 20px;
+    }
+}
+
+   
+    
+
+.bestarticle-container {
+    width: 60%;
+    background-color: rgb(199, 88, 19);
+    text-align: center;
+    h3 {
+        background-color: black;
+        
+    }
+}
+.article-title {
+    width: fit-content;
+    margin: 10px auto;
+}
+
+
+.pref-container {
+    width: 20%;
+    height:400px;
+    background-color: blue;
+    display: flex-start;
+
+}
+.footer-container {
+    text-align: center;
+    background-color: rgb(167, 16, 16);
+    padding: 10px;
+    color: white;
+    
+}
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .square {
+
+        flex-direction: column;
+        align-items: center;
+        padding:0;
+    
+    }
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    #sectionContainer {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .actu-container {
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .bestarticle-container {
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .pref-container {
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-container {
+        width: 100%;
+        flex-direction: column;
+        align-content: flex-end;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <header>
+        <h1>Exercice 3</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Formulaire type</h2>
+            <form>
+                <section>
+                    <h3>Coordonnées</h3>
+                    <div>
+                        <label for="name"><strong>Nom</strong></label><br>
+                        <input id="name" type="text">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="fname"><strong>Prenom</strong></label><br>
+                        <input id="fname" type="text">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="doc"><strong>Je desire recevoir la doc</strong></label>
+                        <input id="doc" type="checkbox">
+                    </div>
+                    <div>
+                        <label for="cntry">Pays :</label>
+                        <select id="cntry">
+                            <option value="SUISSE">SUISSE</option>
+                            <option value="France">France</option>
+                        </select>
+                    </div>
+                    <div>
+                        <span><strong>Sexe :</strong></span>
+                        <input id="masc" type="radio">
+                        <label for="masc">Masculin</label>
+                        <input id="fem" type="radio">
+                        <label for="fem">Feminin</label>
+
+                    </div>
+                </section>
+                <section>
+                    <h3>Domaine d'activité</h3>
+                    <div>
+                        <p>Vous pouvez en choisir plus qu'un</p>
+                        <div>
+                            <input id="peda" type="checkbox">
+                            <label for="peda">pedagogie</label>
+                            <input id="psy" type="checkbox">
+                            <label for="psy">psychologie</label>
+                            <input id="info" type="checkbox">
+                            <label for="info">informatique</label> <input id="other" type="checkbox">
+                            <label for="other">Autre</label>
+                        </div>
+                    </div>
+                    <label for="com"><strong>Commentaire</strong></label>
+                    <p>Si vous le voulez vous pouvez decrire blabla bla</p>
+                    <textarea name="" id=""></textarea>
+                </section>
+                <div>
+                    <button type="reset">Effacer les données</button>
+                    <button type="submit">Enregistrer</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright Thomas Oliver</p>
+    </footer>
+</body>
+
+</html>

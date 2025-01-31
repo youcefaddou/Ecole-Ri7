@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    background-color: green;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.circle-logo {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+   
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+  
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.main-container {
+    display: flex;
+    padding: 30px;
+}
+
+#best {
+    flex: 4;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    article {
+        background-color: black;
+    }
+}
+
+.art-blue {
+    flex: 1;
+    background-color: blue;
+}
+
+.order-first {
+    order: -1;
+}
+
+
+footer {
+    
+ 
+    background-color: red;
+    text-align: center;
+    padding: 30px;
+}

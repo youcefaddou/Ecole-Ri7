@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/contactstyle.css">
+    <title>Formulaire de Contact</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="./pages/pgHTML.html" target="_blank">HTML</a></li>
+                <li><a href="./pages/CSS.html" target="_blank">CSS</a></li>
+                <li><a href="./pages/JavaScript.html" target="_blank">JavaScript</a></li>
+                <li><a href="./pages/Contact.html" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <div class="contact-form-container">
+            <h1>Contactez-nous</h1>
+            <form id="contact-form">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email :</label>
+                <input type="text" id="email" name="email" required>
+
+                <label for="message">Vous avez une requête ou un commentaire? N'hésitez pas :</label>
+                <textarea name="message" id="message" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+            <div class="coordinates">
+                <h2>Nos Coordonnées</h2>
+                <p>Email: contact@webdev.fr</p>
+                <p>Téléphone: 09.53.48.65.71</p>
+            </div>
+        </div>
+        <div id="confirmation-message" style="display: none;">
+            Merci pour votre message ! Nous reviendrons vers vous sous peu !
+        </div>
+
+    </main>
+
+    <footer class="footer-container">
+        <h4>Youcef Copyright ©</h4>
+        <p>Tous droits réservés.</p>
+    </footer>
+
+    <script src="../assets/javascript/script.js"></script>
+</body>
+
+</html>

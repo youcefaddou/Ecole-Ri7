@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TD1 exo 3</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulaire type</h1>
+    </header>
+    <main>
+
+        <form>
+            <section>
+                <h2>Coordonnées</h2>
+                <div>
+                    <strong><label for="name">Nom</label></strong>
+                    <p><input id="name" type="text"></p>
+                </div>
+                <div>
+                    <strong><label for="fname">Prénom</label></strong>
+                    <p><input id="fname" type="text"></p>
+                </div>
+                <div>
+                    <label for="news"><strong>Je désire recevoir une documentation</strong></label>
+                    <input type="checkbox" id="news">
+                </div>
+<br>
+                <div>
+                    <label for="country"><strong>Pays</strong></label>
+                    <select id="">
+                        <option value="ch">CH: Suisse</option>
+                        <option value="fr">FR: France</option>
+                        <option value="eg">EN: Angleterre</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <span><strong>Sexe:</strong></label></span>
+                    <input id="masc" type="radio">
+                    <label for="masc">Masculin</label>
+                    <input id="fem" type="radio">
+                    <label for="fem">Feminin</label>
+                    
+
+                </div>
+                <div>
+            </section>
+            <section>
+                <h2>Domaine d'activité</h2>
+                <p>Vous pouvez en choisir plus qu'un...</p>
+                <div>
+                    <input type="checkbox" id="peda"><label for="peda">Pedagogie</label>
+                    <input type="checkbox" id="psycho"><label for="psycho">Psychologie</label>
+                    <input type="checkbox" id="info"><label for="info">Informatique</label>
+                    <input type="checkbox" id="other"><label for="other">Autre</label> 
+                    <div><br>
+                        <label for="com"><strong>Commentaires</strong></label>
+                        <p>Si vous le voulez, vous pouvez décrire vos activités ou interets</p>
+                        <textarea name="presentation" id="prez"></textarea><br>
+                        <div>                          
+                            <button type="reset">Effacer les données
+                            <button type="submit">Enregistrer les données</button>
+                        </div>
+                    </div>
+            </section>
+
+        </form>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

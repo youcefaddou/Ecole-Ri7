@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/htmlstyle.css">
+    <title>Page HTML</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="./pages/pgHTML.html" target="_blank">HTML</a></li>
+                <li><a href="./pages/CSS.html" target="_blank">CSS</a></li>
+                <li><a href="./pages/JavaScript.html" target="_blank">JavaScript</a></li>
+                <li><a href="./pages/Contact.html" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="section-container">
+            <h1>Le langage HTML</h1>
+
+            <!-- <h2>Les balises HTML, la structure de base d'une page web</h2> -->
+            <div class="paragraph">
+                <p>
+                    Le HTML, ou HyperText Markup Langage, peut se traduire par « langage de balisage d’hypertexte ».
+                    Mais
+                    pourquoi parle-t-on d'un langage de « balisage » ? Explications.</p>
+            </div>
+
+            <h3>Un langage de « balisage »</h3>
+            <article>
+                <div class="about-article-container-right">
+
+                    <p>Au bord de la mer, des balises flottant sur l’eau peuvent délimiter l’espace en mer d’un chenal à
+                        bateaux. De même, le « balisage » d’une page HTML va délimiter et structurer les parties de
+                        cette
+                        page, en appliquant à chacune de ces parties diverses propriétés qui seront interprétées de
+                        manière
+                        différente par le navigateur selon le type de balises utilisées.</p>
+                    <div class="img-container-right">
+                        <img src="../assets/images/Web Development Code GIF.gif" alt="arbre html web">
+                    </div>
+                </div>
+            </article>
+            <h3>Les différents types de balises</h3>
+            <article>
+                <div class="about-article-container">
+
+
+
+                    <div class="img-container">
+                        <img src="../assets/images/Text Coding GIF by Atos.gif" alt="arbre html web">
+                    </div>
+
+                    <p>On distingue des balises « ouvrantes », qui indiquent le début de la portion de page web à
+                        délimiter, et des balises « fermantes », qui en indiquent la fin. Les balises ouvrantes
+                        &lt;exemple&gt; et les balises fermantes &lt;/exemple&gt;
+                        indiquent le nom de la balise. Tous les éléments du contenu d’une page HTML sont encadrés par
+                        une
+                        balise ouvrante et une balise fermante, à part quelques exceptions.</p>
+
+                </div>
+            </article>
+
+            <h3>S’imbriquer sans se croiser</h3>
+            <article>
+                <div class="about-article-container-right">
+
+
+                    <p>Une balise ouvrante et sa balise fermante forment un
+                        conteneur. Ces conteneurs s’imbriquent comme des poupées russes :
+                        &lt;ex1&gt;contenu&lt;ex2&gt;contenu&lt;/ex2&gt;&lt;/ex1&gt;
+
+                        Mais si les balises s’imbriquent, elles ne peuvent en revanche pas se croiser. Par exemple, une
+                        structure de ce type est interdite :
+                        &lt;ex1&gt;contenu&lt;ex2&gt;<br>contenu&lt;/ex1&gt;&lt;/ex2&gt;
+                    </p>
+                    <div class="img-container-right">
+                        <img src="../assets/images/matrioshka.gif" alt="arbre html web">
+                    </div>
+                </div>
+            </article>
+
+            <h3>Une page HTML est comme un arbre</h3>
+            <article>
+                <div class="about-article-container">
+
+
+
+                    <div class="img-container">
+                        <img src="../assets/images/htmlarbre.png" alt="arbre html web">
+                    </div>
+
+                    <ul>
+                        <li>La balise &lt;html&gt; est l’ancêtre de toutes les autres balises et plus
+                            précisément le
+                            parent
+                            des balises &lt;head&gt; et &lt;body&gt;.</li>
+
+                        <li>Les balises &lt;head&gt; et &lt;body&gt; sont les enfants de la balise &lt;html&gt;.
+                        </li>
+
+                        <li>La balise &lt;head&gt; est le parent des balises &lt;meta&gt; et &lt;title&gt;.</li>
+
+                        <li>Les balises &lt;meta&gt; et &lt;title&gt; sont des balises sœurs. 
+
+                        <li>La balise &lt;body&gt; est le parent des balises &lt;p&gt;.</li>
+
+                    </ul>
+                </div>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer class="footer-container">
+        <h4>Youcef Copyright ©</h4>
+        <p>Email: contact@webdev.fr</p>
+        <p>Téléphone: 09.53.48.65.71</p>
+    </footer>
+
+</body>
+
+</html>
