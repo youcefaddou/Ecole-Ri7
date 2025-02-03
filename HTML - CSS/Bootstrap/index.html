@@ -11,17 +11,217 @@
 </head>
 
 <body>
+    <!-- Les bases de Bootstrap 1 -->
     <div class="container">
-        <h1>Balise H1</h1>
-        <h2>Balise H2</h2>
-        <h3>Balise H3</h3>
-        <h4>Balise H4</h4>
-        <h5>Balise H5</h5>
-        <h6>Balise H6</h6>
+        <div class="row">
+            <h1>La classe CONTAINER</h1>
+            <div class="col border-bottom">1</div>
+            <div class="col border-bottom">2</div>
+            <div class="col border-bottom">3</div>
+            <div class="col border-bottom">4</div>
+            <div class="col border-bottom">5</div>
+            <div class="col border-bottom">6</div>
+            <div class="col border-bottom">7</div>
+            <div class="col border-bottom">8</div>
+            <div class="col border-bottom">9</div>
+            <div class="col border-bottom">10</div>
+            <div class="col border-bottom">11</div>
+            <div class="col border-bottom">12</div>
+        </div>
+
     </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"></script>
+<!-- Les bases de Bootstrap 2 -->
+    <div class="container">
+        <div class="row">
+            <h1>La classe CONTAINER</h1>
+            <div class="col border">1</div>
+            <div class="col border">2</div>
+            <div class="col border">3</div>
+            <div class="col border">4</div>
+            <div class="col border">5</div>
+            <div class="col border">6</div>
+            <div class="col border">7</div>
+            <div class="col border">8</div>
+            <div class="col border">9</div>
+            <div class="col border">10</div>
+            <div class="col border">11</div>
+            <div class="col border">12</div>
+        </div>
+        <div class="row">
+            <div class="col-1 border">A</div>
+            <div class="col-2 border">B</div>
+            <div class="col-3 border">C</div>
+            <div class="col-6 border">D</div>
+            <div class="col-4 border">E</div>
+            <div class="col-4 border">F</div>
+            <div class="col-4 border">G</div>
+        </div>
+<!-- La mise en page: 1ère méthode -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <h2>Colonne 1</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A odio id, quaerat eaque eius enim,
+                        repellendus harum tempora, modi explicabo porro quidem iste? Autem dolores provident, culpa
+                        deserunt
+                        architecto ut.</p>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h2>Colonne 2</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A odio id, quaerat eaque eius enim,
+                        repellendus harum tempora, modi explicabo porro quidem iste? Autem dolores provident, culpa
+                        deserunt
+                        architecto ut.</p>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h2>Colonne 3</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A odio id, quaerat eaque eius enim,
+                        repellendus harum tempora, modi explicabo porro quidem iste? Autem dolores provident, culpa
+                        deserunt
+                        architecto ut.</p>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h2>Colonne 4</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A odio id, quaerat eaque eius enim,
+                        repellendus harum tempora, modi explicabo porro quidem iste? Autem dolores provident, culpa
+                        deserunt
+                        architecto ut.</p>
+                </div>
+            </div>
+<!-- La mise en page: 2ème méthode -->
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                    <div class="col">
+                        <h2>Colonne 1</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A odio id, quaerat eaque eius enim,
+                            repellendus harum tempora, modi explicabo porro quidem iste? Autem dolores provident, culpa
+                            deserunt
+                            architecto ut.</p>
+                    </div>
+                    <div class="col">
+                        <h2>Colonne 2</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A odio id, quaerat eaque eius enim,
+                            repellendus harum tempora, modi explicabo porro quidem iste? Autem dolores provident, culpa
+                            deserunt
+                            architecto ut.</p>
+                    </div>
+                    <div class="col">
+                        <h2>Colonne 3</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A odio id, quaerat eaque eius enim,
+                            repellendus harum tempora, modi explicabo porro quidem iste? Autem dolores provident, culpa
+                            deserunt
+                            architecto ut.</p>
+                    </div>
+                    <div class="col">
+                        <h2>Colonne 4</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A odio id, quaerat eaque eius enim,
+                            repellendus harum tempora, modi explicabo porro quidem iste? Autem dolores provident, culpa
+                            deserunt
+                            architecto ut.</p>
+                    </div>
+                </div>
+<!-- Les tailles de texte -->
+                <div class="container">
+                    <h1 class="display-1">Balise H1</h1>
+                    <h2>Balise H2</h2>
+                    <h3>Balise H3</h3>
+                    <h4>Balise H4</h4>
+                    <h5>Balise H5</h5>
+                    <h6>Balise H6</h6>
+                    <p class="display-3">Mettre en évidence du texte</p>
+                </div>
+<!-- Les listes -->
+                <div class="container text-center">
+                    <h2 class="text-start">Listes à puces</h2>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">Élément 1</li>
+                        <li class="list-inline-item">Élément 2</li>
+                        <li class="list-inline-item">Élément 3</li>
+                        <li class="list-inline-item">Élément 4</li>
+                        <li class="list-inline-item">Élément 5</li>
+                    </ul>
+                    <h2 class="text-end">Listes ordonnées</h2>
+                    <ol class="list-unstyled">
+                        <li>Élément 1</li>
+                        <li>Élément 2</li>
+                        <li>Élément 3</li>
+                        <li>Élément 4</li>
+                        <li>Élément 5</li>
+                    </ol>
+                </div>
+            <!-- Les images -->
+                <div class="container">
+                    <div class="w-25 float-start">
+                        <img class="img-fluid rounded" src="./assets/images/carré.avif" alt="carré logo">
+                    </div>
+                    <div class="w-25 float-end">
+                        <img class="img-fluid" src="./assets/images/rond.avif" alt="rond logo">
+                    </div>
+
+
+                </div>
+<!-- Les tableaux -->
+                <div class="container">
+                    <table class="table table-hover table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Prénom</th>
+                                <th>Nom</th>
+                                <th>Age</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Pablo</td>
+                                <td>Escobar</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <td>El Chapo</td>
+                                <td>Guzman</td>
+                                <td>28</td>
+                            </tr>
+                            <tr>
+                                <td>Ricky</td>
+                                <td>BigBallz</td>
+                                <td>26</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+<!-- Classes utilitaires: Les background color  -->
+                <div class="container">
+                    <p class="bg-gradient bg-primary text-white">bg-primary</p>
+                    <p class="bg-gradient bg-secondary text-white">bg-secondary</p>
+                    <p class="bg-gradient bg-success text-white">bg-success</p>
+                    <p class="bg-gradient bg-danger text-white">bg-danger</p>
+                    <p class="bg-gradient bg-warning text-white">bg-warning</p>
+                    <p class="bg-gradient bg-info">bg-info</p>
+                    <p class="bg-gradient bg-light text-primary">bg-light</p>
+                </div>
+                <div class="container">
+                    <p class="bg-danger ">Opacité à 100 %</p>
+                    <p class="bg-danger bg-opacity-75">Opacité à 75 %</p>
+                    <p class="bg-danger bg-opacity-50">Opacité à 50 %</p>
+                    <p class="bg-danger bg-opacity-25">Opacité à 25 %</p>
+                    <p class="bg-danger bg-opacity-10">Opacité à 10 %</p>
+                </div>
+
+<!--Classes utilitaires: Les marges intérieures et extérieures -->
+                <div class="container">
+                    <!-- ms-3 + me-3 = mx-3 pour la marge horizontale -->
+                    <!-- mt-3 + mb-3 = my-3 pour la marge verticale -->
+                    <!-- ps-3 + pe-3 = px-3 pour le padding horizontal -->
+                    <!-- pb-3 + pt-3 = px-3 pour le padding vertical -->
+                     
+                    <p class="bg-primary my-5 mx-3 pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi vel voluptatum soluta nemo
+                        laboriosam incidunt, dolorum iure ipsa repudiandae minima qui recusandae dicta, libero, quisquam
+                        quasi eveniet fugit accusantium saepe?</p>
+                </div>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                    crossorigin="anonymous"></script>
 </body>
 
 </html>
