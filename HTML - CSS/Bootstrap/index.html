@@ -246,12 +246,76 @@
                 </div>
 
                 <!-- Classes utilitaires: le display -->
-                 <div class="container">
+                <div class="container">
                     <p class="bg-primary text-white p-2">Un premier paragraphe</p>
                     <p class="bg-danger text-white p-2 d-inline">Un second paragraphe</p>
-                    <hr> 
+                    <p class="bg-danger text-white p-2 d-md-none">Un affichage sur smartphone</p>
+                    <p class="bg-danger text-white p-2 d-none d-lg-block">Un affichage sur grand écran</p>
+                    <hr>
                     <a class="bg-warning p-2 d-block" href="#"></a>
-                 </div>
+                </div>
+                <!-- Classes utilitaires: les ombres -->
+                <div class="container p-5">
+                    <div class="row">
+                        <div class="col mx-3 shadow">
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, officiis.</p>
+                        </div>
+                        <div class="col mx-3 shadow-sm">
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, officiis.</p>
+                        </div>
+                        <div class="col mx-3 shadow-lg">
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, officiis.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Classes utilitaires: les ombres -->
+                <div class="container p-5">
+                    <p class="bg-success p-2 text-white w-25">Largeur de 25%</p>
+                    <p class="bg-primary p-2 text-white w-50">Largeur de 50%</p>
+                    <p class="bg-danger p-2 text-white w-75">Largeur de 75%</p>
+                    <p class="bg-secondary p-2 text-white w-100">Largeur de 100%</p>
+                    <p class="bg-warning p-2 text-white w-auto">Largeur auto</p>
+                </div>
+                <div class="container border mt-5" style="height: 200px;">
+                    <p class="bg-success p-2 text-white d-inline-block h-25">Hauteur de 25%</p>
+                    <p class="bg-primary p-2 text-white d-inline-block h-50">Hauteur de 50%</p>
+                    <p class="bg-danger p-2 text-white d-inline-block h-75">Hauteur de 75%</p>
+                    <p class="bg-secondary p-2 text-white d-inline-block h-100">Hauteur de 100%</p>
+                    <p class="bg-warning p-2 text-white d-inline-block h-auto">Hauteur auto</p>
+                </div>
+
+                <!-- Flexbox avec Bootstrap: Flex -->
+                <div style="height: 200px;" class="container mb-5 bg-dark d-flex flex-wrap">
+                    <!-- Dans la div juste au dessus: flex-column-reverse // flex-row // flex-row-reverse // flex-column // flex-wrap va forcer le retour a la ligne -->
+                    <div class="w-50 p-2 text-white bg-primary">1</div>
+                    <div class="w-50 p-2 text-white bg-success">2</div>
+                    <div class="w-50 p-2 text-white bg-warning">3</div>
+                </div>
+
+                <!-- Flexbox avec Bootstrap: Justify-content -->
+                <div style="height: 200px;" class="container mb-5 bg-dark d-flex justify-content-evenly ">
+                    <!-- Dans la div juste au dessus: justify-content-start // justify-content-end // justify-content-between // justify-content-around // justify-content-center -->
+                    <div class="w-25 p-2 text-white bg-primary">1</div>
+                    <div class="w-25 p-2 text-white bg-success">2</div>
+                    <div class="w-25 p-2 text-white bg-warning">3</div>
+                </div>
+
+                <!-- Flexbox avec Bootstrap: Align-items -->
+                <div style="height: 200px;" class="container mb-5 bg-dark d-flex align-items-start ">
+                    <!-- Dans la div juste au dessus: align-items-stretch // align-items-center //align-items-end // on peut cumuler les justify-content et align-items //align-items-lg-center -->
+                    <div class="w-25 p-2 text-white bg-primary">1</div>
+                    <div class="w-25 p-2 text-white bg-success">2</div>
+                    <div class="w-25 p-2 text-white bg-warning">3</div>
+                </div>
+
+                <!-- Flexbox avec Bootstrap: Align-self -->
+                <div style="height: 200px;" class="container mb-5 bg-dark d-flex">
+                    <!-- Dans la div juste au dessous: align-self-end // align-self-center // flex-grow-1 pour élargir le container -->
+                    <div class="w-25 p-2 text-white bg-primary align-self-start">1</div>
+                    <div class="w-25 p-2 text-white bg-success">2</div>
+                    <div class="w-25 p-2 text-white bg-warning">3</div>
+                </div>
 
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
                     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
