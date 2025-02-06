@@ -15,7 +15,7 @@ if (number > 0) {
 /* Exercice 2
 
 password = prompt("Entrez votre mot de passe: ")
-if (password == "12345") {
+if (password === "12345") {
     console.log("Accès autorisé");
 }
 else {
@@ -29,9 +29,9 @@ else {
 numberOne = prompt("Taper un premier nombre: ")
 numberTwo = prompt("Taper un second nombre: ")
 numberThree = prompt("Taper un dernier nombre: ")
-if (numberOne >= numberTwo && numberOne >= numberThree) {
+if (numberOne > numberTwo && numberOne > numberThree) {
     console.log("Le plus grand nombre est " + numberOne)
-} else if (numberTwo >= numberOne && numberTwo >= numberThree) {
+} else if (numberTwo > numberOne && numberTwo > numberThree) {
     console.log("Le plus grand nombre est " + numberTwo);
 } else {
     console.log("Le plus grand nombre est " + numberThree);
@@ -105,14 +105,16 @@ if (valueUser <= 0) {
 // Exercice 4
 /*
 frameval = prompt("Entrez le nombre de cadres commandés: ")
-if (frameval < 11) {
+if (frameval <= 10) {
     console.log("Le prix total est de: " + frameval*20);
     
-} else if (frameval > 40)  {
-    console.log("Le prix total est de: " + frameval*5);
+} else if (frameval >= 11 && frameval <= 30)  {
+    let temp = frameval - 10
+    console.log("Le prix total est de: " + 200 + frameval*15);
     
 } else {
-    console.log("Le prix total est de: " + frameval*15);
+    let temp = frameval - 30
+    console.log("Le prix total est de: " + 500 + frameval*5);
     
 }
 */
@@ -129,3 +131,4 @@ if (valueAge >= 20 && valueGender === "homme") {
     
 }
 */
+
