@@ -140,35 +140,65 @@ console.log(`Voici le décompte des votes: ${resultYes}% de votes Oui, ${resultN
 
 /* Exercice 7 Écrire un programme qui lit un entier n puis affiche les nombres premiers. On appelle un
 nombre premier tout nombre qui ne peut être divisé que par 1 ou par lui-même. */
+/*
 let prime = parseInt(prompt("Entrez un nombre entier: "))
-for (i = 2; i <= prime; i++) {
+for (i = 1; i <= prime; i++) {
     let isPrime = true
-    for (let j = 2; j <= i; j++) {
-        if (i % j === 0) {
-            isPrime = true
+    for (let j = 2; j < i; j++) {
+        if (i % j == 0) {
+            isPrime = false
             break
-        } if (isPrime) {
-            console.log(i);
         }
+    } if (isPrime) {
+        console.log(i);
     }
 }
-
+*/
 
 
 /* Exercice 8 Écrire un algorithme qui demande un nombre de départ et qui ensuite affiche les six nombres
-suivants en utilisant la boucle Répéter jusqu’à et Tant que. */
+suivants en utilisant la boucle Répéter jusqu’à (for) et Tant que. (while) */
+/*
+let startNum = parseInt(prompt("entrez un numéro: "))
+console.log(startNum);
 
-
+while (isNaN(startNum)) {
+    startNum = parseInt(prompt("entrez un numéro valide: "))
+}
+for (let i = startNum + 1; i < startNum + 7; i++) {
+    console.log(i)
+}
+*/
 
 /* Exercice 9 Un garage à Paris contient 50 voitures, ce nombre augmente chaque année de 100 voitures.
 Un autre à Nantes possède 200 voitures qui augmentent de 12% par an.
 Écrire un algorithme qui permet de déterminer dans combien d’années le nombre de voitures
 dans le garage à Paris dépassera celles du garage à Nantes. */
+/*
+let Paris = 50
+let Nantes = 200
+let years = 0
 
-
+while (Paris <= Nantes) {
+    Paris += 100
+    Nantes += (Nantes * 12) / 100
+    years ++
+}
+console.log(`Le nombre de voitures à Paris a depassé celui de Nantes en ${years} ans.`);
+*/
 
 /* Exercice 10 Écrire un algorithme permettant de taper un entier n, puis qui calcule le produit des carrés
 des n premiers entiers pairs.
 Par exemple : si n= 4, on affichera : 2² x 4² x 6² x 8² = 147456  */
+
+
+let n = parseInt(prompt("Tapez un nombre entier: "))
+let prod = 1
+for (let i = 0; i < n; i++) {
+    let nbPair= 2 * (i + 1)
+    prod *= nbPair * nbPair
+}
+console.log(`${prod}`)
+
 
 
