@@ -82,44 +82,44 @@
 // Créez une fonction genererPseudo qui prend le prénom et l'année de naissance d'une personne et retourne un pseudo.
 // exemple Nom = "Merveille", Prenom = "Alice" AnneeDeNaissance = 1989, la fonction retournera "MerveilleAlice1989"
 
-function genererPseudo(surname, year) {
-    let words = ['Merveille', 'Super', 'TopGun', 'Wonder']
-    let word = words[Math.floor(Math.random() * words.length)]
-    return word + surname + year
-}
-console.log("Votre pseudo est: " + genererPseudo('Marion', 1990));
+// function genererPseudo(surname, year) {
+//     let words = ['Merveille', 'Super', 'TopGun', 'Wonder']
+//     let word = words[Math.floor(Math.random() * words.length)]
+//     return word + surname + year
+// }
+// console.log("Votre pseudo est: " + genererPseudo('Marion', 1990));
 
 // Exercice 6. Générateur de Salutations Personnalisées
 // Créez une fonction saluerPersonne qui prend un nom et une heure en paramètres et retourne une salutation appropriée selon l'heure de la journée.
 // exemple : Nom = toto, heure = 9, la fonction retournera // Salut toto ! Bon debut de journée. 
 
-function saluerPersonne(name, hour) {
-    let greeting
-    if (hour >= 5 && hour < 12) {
-        greeting = "Salut " + name + ", bonne journée !"
-    } else if (hour >= 12 && hour < 18) {
-        greeting = "Salut " + name + ", bon après-midi !"
-    } else if (hour >= 18 && hour < 24) {
-        greeting = "Salut " + name + ", bonne soirée !"
-    }
-    return greeting
-}
-console.log(saluerPersonne("Tom", 21))
+// function saluerPersonne(name, hour) {
+//     let greeting
+//     if (hour >= 5 && hour < 12) {
+//         greeting = "Salut " + name + ", bonne journée !"
+//     } else if (hour >= 12 && hour < 18) {
+//         greeting = "Salut " + name + ", bon après-midi !"
+//     } else if (hour >= 18 && hour < 24) {
+//         greeting = "Salut " + name + ", bonne soirée !"
+//     }
+//     return greeting
+// }
+// console.log(saluerPersonne("Tom", 21))
 
 // Exercice 7. Compteur de Voyelles
 // Créez une fonction compterVoyelles qui prend une chaîne de caractères et retourne le nombre de voyelles.
 
-function compterVoyelles(mot) {
-    let vowels = "aeiouyAEIOUY"
-    let count = 0
-    for (let i = 0; i < mot.length; i++) {
-        if (vowels.indexOf(mot[i]) != -1) {
-            count++
-        }
-    }
-    return count
-}
+// function compterVoyelles(mot) {
+//     let vowels = "aeiouyAEIOUY"
+//     let count = 0
+//     for (let i = 0; i < mot.length; i++) {
+//         if (vowels.indexOf(mot[i]) != -1) {
+//             count++
+//         }
+//     }
+//     return count
+// }
 
-let text = "Salut les gars!"
-let nbrvowels = compterVoyelles(text)
-console.log("Le nombre de voyelles dans la phrase est: " + nbrvowels);
+// let text = "Salut les gars!"
+// let nbrvowels = compterVoyelles(text)
+// console.log("Le nombre de voyelles dans la phrase est: " + nbrvowels);
